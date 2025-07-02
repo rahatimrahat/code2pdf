@@ -1,4 +1,3 @@
-Here’s a more user-friendly and modern version of your README snippet, with clear steps, formatting, and tips:
 
 ---
 
