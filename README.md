@@ -1,9 +1,10 @@
 Build the Docker Image:
 Open your terminal or command prompt, navigate to your project's root directory (where Dockerfile is located), and run the following command:
 
-Bash
 
-docker build -t codebase-to-pdf-app .
+
+docker build -t codebase-to-pdf-app 
+
 This command builds a Docker image and tags it as codebase-to-pdf-app.
 
 Run the Docker Container:
