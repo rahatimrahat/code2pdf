@@ -49,4 +49,4 @@ You should now see the app running!
 
 ---
 
-Let me know if you want the full README modernized or have other sections to improve!
+
