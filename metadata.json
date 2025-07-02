@@ -1,0 +1,6 @@
+{
+  "name": "Codebase to PDF Converter",
+  "description": "A tool to select a codebase folder and convert its contents into a single, well-structured PDF document, preserving the original file and directory hierarchy.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
