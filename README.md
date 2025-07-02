@@ -1,14 +1,15 @@
-# Run and deploy your PDF converter app
+Build the Docker Image:
+Open your terminal or command prompt, navigate to your project's root directory (where Dockerfile is located), and run the following command:
 
-This contains everything you need to run your app locally.
+Bash
 
-## Run Locally
+docker build -t codebase-to-pdf-app .
+This command builds a Docker image and tags it as codebase-to-pdf-app.
 
-**Prerequisites:**  Node.js
+5. Run the Docker Container:
+Once the image is built, you can run it as a container:
 
+Bash
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+docker run -p 5173:5173 codebase-to-pdf-app
+-p 5173:5173: This maps port 5173 on your host machine to port 5173 inside the Docker container. Since Vite runs on port 5173, this allows you to access the app from your browser.
